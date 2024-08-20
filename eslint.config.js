@@ -2,6 +2,7 @@
 "use strict";
 
 // Import the ESLint plugin locally
+const eslintPlugin = require("./eslintPluginExample");
 
 module.exports = [
     {
@@ -11,10 +12,10 @@ module.exports = [
             ecmaVersion: "latest",
         },
         plugins: {
-            //TODO: Add plugins here
-        },
+            eslintPlugin
+                },
         rules: {
-            //TODO: Add rules here
+            'eslintPlugin/noConsoleLog': "error",
         },
     }
 ]
