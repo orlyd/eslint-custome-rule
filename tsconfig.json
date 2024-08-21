@@ -9,5 +9,5 @@
     "outDir": "./dist",
     "types": ["node", "react-native"]
   },
-  "include": ["eslint-plugin-custom-rules/*.ts", "*.ts"]
+  "include": ["*.ts"]
 }
