@@ -1,27 +1,9 @@
 {
   "compilerOptions": {
-    /* Visit https://aka.ms/tsconfig to read more about this file */
-
-    /* Language and Environment */
-    "target": "ES2018",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-    /* Modules */
+    "target": "ES2018",                                  
     "module": "NodeNext", 
     "moduleResolution": "NodeNext",   
-     "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
-    // "preserveSymlinks": true,  
-    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
-
-    /* Type Checking */
-    "strict": true,                                      /* Enable all strict type-checking options. */
-  
-    "skipLibCheck": true,
-    "lib": ["ES6", "DOM", "ESNext"],
-  },
-  "ts-node": {
-    "esm": true,
-    "experimentalSpecifierResolution": "node",       
-  },
-  "types": ["node", "react-native"],
-
+     "esModuleInterop": true,                             
+  }
 }
   
