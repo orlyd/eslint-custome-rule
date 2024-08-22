@@ -1,7 +1,3 @@
-Here's an enhanced version of your documentation:
-
----
-
 # ESLint Custom Rule Creation
 
 ## Step-by-Step Guide
